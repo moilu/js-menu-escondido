@@ -8,11 +8,51 @@ html {
 }
 body {
     align-items: center;
+    background-image: linear-gradient(90deg, #7d5fff, #7158e2);
     display: flex;
     font-family: 'Roboto', 'sans-serif';
-    flex-direction: column;
     justify-content: center;
     height: 100vh;
     margin: 0;
     overflow: hidden;
+}
+
+.search {
+    height: 5rem;
+    position: relative;
+}
+
+.search .input {
+    background-color: #fff;
+    border: 0;
+    font-size: 1.8rem;
+    height: 5rem;
+    transition: width 0.3s ease;
+    width: 5rem;
+}
+
+.btn {
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 2.4rem;
+    height: 5rem;
+    position: absolute;
+        left: 0;
+        top: 0;
+    transition: transform 0.3s ease;
+    width: 5rem;
+}
+
+.btn:focus,
+.input:focus {
+    outline: none;
+}
+
+.search.active .input {
+    width: 20rem;
+}
+
+.search.active .btn {
+    transform: translateX(19.8rem)
 }
