@@ -13,7 +13,7 @@ botón de búsqueda.
 
 Aquí podrás encontrar un despliegue del proyecto:
 
-https://moilu.github.io/js-menu_escondido/
+https://moilu.github.io/js-menu-escondido/
 
 ## Contacto
 
